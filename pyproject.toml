@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai_research"
+version = "0.1.0"
+description = ""
+authors = ["Niklas"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.2"
+matplotlib = "^3.8.2"
+tensorflow = "^2.15"
+tensorflow-metal = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
